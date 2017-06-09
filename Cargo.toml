@@ -8,6 +8,9 @@ documentation = "https://docs.rs/elastic_responses"
 repository = "https://github.com/elastic-rs/elastic-responses"
 exclude = [ "samples" ]
 
+[profile.bench]
+debug = true
+
 [dependencies]
 log = "~0.3"
 serde = "~1"
